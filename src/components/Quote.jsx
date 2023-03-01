@@ -40,6 +40,7 @@ const Quote = () => {
 
         <div className='container-sm flex absolute bottom-0 translate-y-5  p-3 rounded-full bg-primary-700 hover:shadow-glow hover:shadow-primary-700'>
           <button onClick={handleClick}>
+            <p className='hidden'>Generate new</p>
             <img src={iconDice} alt="" />
           </button>
         </div>
